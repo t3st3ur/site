@@ -1,1 +1,0 @@
-# Mind-Data.github.io
