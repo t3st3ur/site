@@ -2158,7 +2158,7 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
-		background-color: #09102278
+		background-image: url("../../images/cabinet.jpg");
 	}
 
 	header p {
@@ -2257,7 +2257,7 @@ input, select, textarea {
 	}
 
 	h4 {
-		color: #0000
+		color: #e76278
 	}
 
 /* Form */
@@ -3119,7 +3119,6 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("images/organisme_public.jpg");
 			content: '';
 			display: block;
 			height: 100%;
