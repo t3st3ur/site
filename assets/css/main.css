@@ -2158,7 +2158,7 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
-		background-color: #3c4867
+		background-color: #09102278
 	}
 
 	header p {
@@ -3119,7 +3119,7 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.jpg");
+			background-image: url("images/organisme_public.jpg");
 			content: '';
 			display: block;
 			height: 100%;
@@ -3598,7 +3598,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background: #000000;
 		padding: 6em 0;
 		text-align: center;
 	}
