@@ -2158,6 +2158,7 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
+		background-color: #3c4867
 	}
 
 	header p {
@@ -2246,9 +2247,17 @@ input, select, textarea {
 			width: 75%;
 		}
 
+	header.majorstratégie_digitale {
+		color: #0000
+	}
+
 
 	footer.major {
 		margin: 4em 0 0 0;
+	}
+
+	h4 {
+		color: #0000
 	}
 
 /* Form */
@@ -3258,7 +3267,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #e44c65;
+			background: #1f2133;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3509,7 +3518,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/banner.png");
+		background-image: url("../../images/data4.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3820,6 +3829,8 @@ input, select, textarea {
 
 			h2 {
 				font-size: 1.5em;
+				text-align: center;
+				font-size: xx-large;
 			}
 
 			h3 {
