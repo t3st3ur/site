@@ -253,7 +253,7 @@ animation-name : rotate-in-center;
 		line-height: 1.5em;
 		text-align: center;
 		color:#dcdee4;
-		animation-duration: 15s;
+		animation-duration: 0.9s;
 	animation-name: flip-in-hor-top;
 }
 
