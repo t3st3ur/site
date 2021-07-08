@@ -154,12 +154,45 @@ input, select, textarea {
 		font-size: 2em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
-	}
+		animation-duration: 10s;
+		animation-name: tracking-in-expand-fwd;
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
 
 	h3 {
 		font-size: 1.35em;
 		line-height: 1.5em;
+		animation-duration: 10s;
+		animation-name: blur-out-contract
 	}
+
+	@keyframes blur-out-contract {
+  0% {
+    -webkit-filter: blur(0.01);
+            filter: blur(0.01);
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px) opacity(0%);
+            filter: blur(12px) opacity(0%);
+  }
+}
 
 	h4 {
 		font-size: 1.1em;
@@ -263,6 +296,42 @@ input, select, textarea {
 			opacity: 1;
 		}
 	}
+
+	@-webkit-keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
 
 	@-ms-keyframes spinner-show {
 		0% {
@@ -2158,7 +2227,7 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
-		background-image: url("../../images/cabinet.jpg");
+		background-image: url("../../images/data8.jpg");
 	}
 
 	header p {
@@ -3566,7 +3635,7 @@ input, select, textarea {
 			}
 
 				#banner .content header h2 {
-					font-size: 2.5em;
+					font-size: -webkit-xxx-large;
 					margin: 0;
 				}
 
@@ -3739,7 +3808,7 @@ input, select, textarea {
 				}
 
 				.spotlight .content {
-					background-color: #1c1d26;
+					background-color: #000000;
 					border-width: 0 !important;
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
