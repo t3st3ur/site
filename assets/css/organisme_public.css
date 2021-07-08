@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #1c1d26;
+		background: #000000;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: #beaeae;
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
@@ -132,9 +132,62 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 		text-align: justify;
+		animation-duration: 0.5s;
+		animation-name:  text-focus-in;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+div.bloc {
+animation-duration: 0.9s;
+animation-name : scale-up-ver-bottom ;
+}
+
+@keyframes scale-up-ver-bottom {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+}
+
+div.photo {
+animation-duration: 0.9s;
+animation-name : rotate-in-center;
+}
+
+@keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+	h1, h2, h4, h5, h6 {
 		color: char;
 		font-weight: 600;
 		line-height: 1em;
@@ -156,22 +209,27 @@ input, select, textarea {
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
 		margin: 0 0 1em 0;
-		animation-duration: 0.5s;
-		animation-name: slidein;
+		animation-duration: 0.8s;
+		animation-name: tracking-in-contract-bck;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 150%;
-    width: 0%;
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
   }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
   }
 }
-	}
+
 
 	h3 {
 		font-size: 1.35em;
@@ -182,7 +240,7 @@ input, select, textarea {
 		font-size: 1.1em;
 		line-height: 1.5em;
 		text-align: center;
-		color:#c9c9ca;
+		color:#eee;
 	}
 
 	h5 {
@@ -191,10 +249,25 @@ input, select, textarea {
 	}
 
 	h6 {
-    font-size: 1.1em;
-    line-height: 1.5em;
-    text-align: center;
-    color: #dcdee4;
+		font-size: 1.1em;
+		line-height: 1.5em;
+		text-align: center;
+		color:#dcdee4;
+		animation-duration: 0.9s;
+	animation-name: flip-in-hor-top;
+}
+
+@keyframes flip-in-hor-top {
+  0% {
+    -webkit-transform: rotateX(-80deg);
+            transform: rotateX(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
+  }
 }
 
 	sub {
@@ -218,6 +291,22 @@ input, select, textarea {
 		hr.major {
 			margin: 4em 0;
 		}
+
+		div.conformité {
+		animation-name: slidein;
+	}
+
+	@keyframes slidein {
+  from {
+    margin-left: 150%;
+    width: 0%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 	blockquote {
 		border-left: solid 4px rgba(255, 255, 255, 0.3);
@@ -3608,7 +3697,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background: #000000;
 		padding: 6em 0;
 		text-align: center;
 	}
