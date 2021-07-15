@@ -494,10 +494,15 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
-	strong, b {
+	strong { 
 		color: #eee;
 		font-weight: 300;
 	}
+
+        b {
+		color: #cc6475;
+		font-weight: 1000;
+        }
 
 	em, i {
 		font-style: italic;
