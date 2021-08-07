@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<title>Particuliers</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Mind-Data, conseil en protection des données personnelles accompagne les organismes privés dans leur mise en conformité au RGPD." />
+		<link rel="stylesheet" href="assets/css/organisme_privé.css" />
+		<link rel="icon" href="logo.ico">		
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Mind-Data</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="DPO.html">Cabinet</a></li>
+							<li>
+								<a href="#">Activités</a>
+								<ul>
+									<li>
+										<a href="organisme_public.html">Organisme public</a>
+									</li>
+									<li>
+										<a href="organisme_privé.html">Organisme privé</a>
+									</li>
+									<li>
+										<a href="associations.html">Associations</a>
+									</li>
+									<li>
+										<a href="particuliers.html">Particuliers</a>
+										<ul>
+											<li><a href="#">Droits fondamentaux</a></li>
+											<li><a href="#">Principes fondamentaux</a></li>
+											<li><a href="Formation.pdf" target="_blank">Formation</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="nos_offres.html">Nos offres</a></li>
+							<li><a href="#" class="button primary">mind-data-contact[at]protonmail.com</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Contenu -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="majorparticuliers">
+							<h2>Particuliers</h2>
+						</header>
+						<div class="row gtr-150">
+							<div class="col-8 col-12-medium">
+
+								<!-- Contenu -->
+									<section id="content">
+										<div class="bloc">
+										<h4>En quoi êtes vous concernés ?</h4>
+										<p><a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees"><strong>Le réglement général sur la protection des données</strong></a> du <b>27 avril 2016</b>, s'il est <b>opposable aux personnes morales</b> de droit public ou droit privé, consacre certains droits fondamentaux aux seules <strong>personnes physiques</strong>, appelées <b>personnes concernées</b>. Parmi les droits fondamentaux reconnus aux particuliers figurent le <b>droit à l'information</b> qui doit leur permettre de disposer d'une information claire sur l'utilisation de leurs données et sur leurs droits, le <b>droit d'opposition</b> qui doit leur permettre de s'opposer à tout moment à ce qu'un organisme utilise certaines de leurs données, <b> le droit d'accès</b> qui permet d'obtenir et de vérifier les données qu'un organisme détient ou encore de <b>rectification</b> ou <b> d'effacement.</b> En tant que particulier, vous pouvez exercer certains droits plus spécifiques comme le <b>droit à la portabilité</b>, le <b>droit à la limitation des données</b> ou encore certains <b>droits liés au profilage</b></p>
+										<hr>
+										<h4>Que proposons-nous ?</h4>
+										<p>Le cabinet <strong>Mind-Data</strong>, délégué à la protection des données intervenant pour les organismes publics, privés et les associations, propose des actions de <strong>sensibilisation </strong> et de <strong>formation</strong> aux particuliers qui souhaiteraient en connaître davantage sur leurs droits fondamentaux reconnus par le RGPD ou souhaitant disposer de connaissances de base ou plus avancées en matière de <strong>droit lié à la protection des données</strong>. Ces sensibilisations et formations sont organisées en <strong>présentiel </strong> et <strong> distanciel </strong> sur une durée d'<strong>une journée</strong> ou de <strong>deux jours </strong></p>
+										<hr>
+										<h4>Notre politique</h4>
+										<p>Le délégué est chargé d'informer et de conseiller le responsable de traitement (ou le sous-traitant) et ses employés, de contrôler le respect du règlement européen et du droit français en matière de protection des données, de conseiller l'organisme sur la réalisation d'une <strong>analyse d'impact</strong> et de <strong>coopérer avec l'autorité de contrôle</strong></p> 
+										<p>Il doit avoir les qualités et compétences suivantes : <b>communiquer efficacement</b> et exercer ses fonctions en toute indépendance, disposer d'une <b>expertise</b> en matière de législation et pratiques liée à la protection des données, acquise notamment par une formation continue, une <b>bonne connaissance</b> du secteur d'activité.</p><p> En faisant appel à <b>Mind-Data</b>, délégué à la protection des données certifié par le Conservatoire National des Arts et Métiers (CNAM), vous serez en mesure de <b>comprendre</b> l'ensemble des droits dont vous disposez, mais aussi en capacité de les <b>exercer</b> et de les rendre <b>opposables</b> et <b>effectifs</b>. Nous organisons des <b>formations</b> sur mesure, de sensibilisation ou plus pratique, à destination d'un public <b>majeur</b> ou <b>mineur</b>, sur accord du représentant légal, en lien avec des thématiques actuelles comme le <b>cyberharcèlement</b>, <b>le hacking </b> ou les <b>fakenews</b>. En tant que délégué à la protection des données, nous nous efforçons de collecter le minimum de données nécessaire à la poursuite de notre activité et privlégions, en matière d'hébergement, de partage de documents ou de recours aux sous-traitants des <strong>solutions européennes, françaises</strong>, <strong>écoresponsables</strong> et <strong>open-source</strong>. Pour le vérifier, consultez notre <a href="politique_confidentialité.html"><strong>politique de confidentialité !</strong></a></p>
+									</section>
+								
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<section id="sidebar">
+										<hr />
+										<section>
+											<div>
+											<h6>Vérifiez votre mot de passe :</h6>
+											<p>Tous les mots de passe peuvent être forcés, ce n'est qu'une question de temps : si vous n'êtes pas convaincu, faites le test en utilisant la fonctionnalité développée par l'association <a href="https://nothing2hide.org/fr/"<strong>Nothing2Hide</strong></a>, fondation qui s'est donnée comme objectif d'offir aux journalistes, avocats, militaits des droits de l'homme ou "simples" citoyens, les moyens de protéger leurs informations</p>  
+												<footer>
+												<ul class="actions">
+													<li><a href="https://nothing2hide.org/fr/verifier-la-robustesse-de-votre-mot-de-passe/" class="button">Je fais le test</a></li>
+												</ul>
+											</footer>
+										</div>
+										<section>
+										<hr />
+											<div>
+											<h6>Droits fondamentaux</h6>
+											<p>Les personnes concernées, telles que définies par le réglement général sur la protection des données personnelles, sont titulaires de plusieurs droits fondamentaux tels que le droit à <b>l'information</b> et <b>l'accès</b> aux données personnelles, le droit de <b>rectification</b> et d'<b>effacement</b>, le droit à la <b>limitation du traitement</b> ou d'<b>opposition</b> ou encore le droit à la <b>portabilité</b> ou <b>de ne pas faire l'objet d'une décision individuelle automatisée</b></p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3" class="button">Découvrir</a></li>
+												</ul>
+											</footer>
+										</div>
+										</section>
+										<hr />
+										<section>
+											<div>
+											<h6>Principes fondamentaux</h6>
+											<p>Les traitements de données à caractère personnel sont encadrés par le principe de<b> finalité</b>, les principes de <b>proportionnalité</b> et de <b>pertinence</b> ou de <b>sécurité</b> et de <b>confidentialité</b>. Les données collectées et traitées sont quant à elles soumises au principe d'une <b>durée de conservation limitée</b></p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://www.cnil.fr/fr/cnil-direct/question/quels-sont-les-grands-principes-des-regles-de-protection-des-donnees" class="button">Découvrir</a></li>
+												</ul>
+											</footer>
+										</div>
+										</section>
+										<hr />
+										<section>
+											<div>
+											<h6>Formation</h6>
+											<p>Les sessions de formation et sensibilisation, organisées en <b>présentiel</b> ou <b>distanciel</b> ont pour objectif de sensibiliser les <b>personnes concernées</b>, <b>majeures ou mineures</b>, sur la législation relative à la protection de leurs données personnelles et à les sensibiliser sur certains risques liés à l'usage de ces nouvelles technologies (<b>cybercriminalité</b> et <b>responsabilité pénale</b>)</b></p>
+											<footer>
+												<ul class="actions">
+													<li><a href="Formation.pdf" target="_blank" class="button">Découvrir</a></li>
+												</ul>
+											</footer>
+										</div>
+										</section>
+									</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Fin -->
+			<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://twitter.com/MindData1" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/mind-data-143550218/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/Mind-Data" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; <strong>Mind-Data</strong>. Tous droits réservés</li>
+						<li><strong><a href="plan_du_site.html">Plan du site</strong></a></li>
+						<li><strong><a href="politique_confidentialité.html">Politique de confidentialité</a></strong></li>
+						<li><strong><a href="mentions_légales.html">Mentions légales</a></strong></li>
+						<li>Design: <strong>Mind-Data</strong></li>
+					</ul>
+				</footer>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
