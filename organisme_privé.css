@@ -4426,6 +4426,7 @@ animation-name : rotate-in-center;
 					height: 44px;
 					line-height: 44px;
 					text-align: center;
+					background-color: black;
 				}
 
 					#titleBar .title a {
