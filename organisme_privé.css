@@ -4420,13 +4420,13 @@ animation-name : rotate-in-center;
 			}
 
 				#titleBar .title {
-					color: #ffffff;
+					color: rgb(0 0 0 / 95%);
 					display: block;
 					font-weight: 300;
 					height: 44px;
 					line-height: 44px;
 					text-align: center;
-					background-color:#000000;
+					background-color:#FFFFFF;
 				}
 
 					#titleBar .title a {
@@ -4459,8 +4459,8 @@ animation-name : rotate-in-center;
 					}
 
 					#titleBar .toggle:before {
-						background: #e44c65;
-						color: rgba(255, 255, 255, 0.5);
+						background: #ffffff;
+						color: rgb(0 0 0 / 95%);
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
